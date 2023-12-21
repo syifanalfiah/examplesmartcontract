@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+      "lib": ["es2015"]  // or ["es2015", "dom"] if you need DOM-related features
+    },
+    "include": ["src/SmartContract.ts"],
+    "exclude": ["node_modules"]
+  }
+  
